@@ -1,0 +1,12 @@
+(CarRacing-v0)환경은 이미 openai gym에 포함되어 있기 때문에 환경 설치는 터미널에 pip install gym을 치면 됩니다. 그리고 학습하고자 할 때는 python PPO_train.py, 테스트하고자 할 때는 python PPO_test.py를 입력하면 간단하게 실행됩니다.
+
+1. Train
+   - Go terminal
+   - 'pip install gym'
+   - 'python PPO_train.py'
+   - 실행하면 해당폴더에 PPO폴더가 생성되고 이 안에 1000episode 당 동영상, 모델이 저장됩니다.
+
+2. Test
+   - Go terminal
+   - 'pip install gym'
+   - 'python PPO_test.py'
